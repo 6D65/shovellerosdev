@@ -12,8 +12,10 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
+
   # config.vm.box = "https://www.dropbox.com/s/7kpnnlt1qxjiibk/cocosdev_base.box?dl=1"
-  config.vm.box = "cocosdev"
+  config.vm.box = "cocosdev" # requires the => "vagrant box add cocosdev https://www.dropbox.com/s/7kpnnlt1qxjiibk/cocosdev_base.box?dl=1"
+
   config.vm.provision :shell, path: "bootstrap.sh"
   config.ssh.username = "vagrant"
   config.ssh.password = "vagrant"
