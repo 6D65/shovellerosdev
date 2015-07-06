@@ -26,4 +26,4 @@ source ~/.bashrc
 sudo cocos new dummy -l js -d /vagrant
 
 # sudo cp -r /vagrant/dummy/dummy/frameworks /vagrant/shovelleros/frameworks
-sudo mv /vagrant/dummy/dummy/frameworks /vagrant/shovelleros/frameworks
+# sudo mv /vagrant/dummy/dummy/frameworks /vagrant/shovelleros/frameworks
